@@ -1,0 +1,109 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+input::placeholder{
+	font-size: 15px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+input{
+	width:300px;
+	height:30px;
+	display: flex;
+	align-self: center;
+    position: relative;
+	top:100px;
+	border:2px solid black;
+    border-radius: 50px;
+   text-align: center;
+}
+
+.bg{
+    padding: 10px;
+    border: 2px solid black
+}
+
+
+.card{
+	              border-right: 2px solid black;
+                  border-left: 2px solid black;
+                  border-bottom: 2px solid black;
+                  width: 400px;
+                  height: 400px; 
+				  margin-top:50px ;
+				  margin-left: 50px;
+           
+}
+.logo{
+	width: 70px;
+	margin-left:135px ;
+	display: flex;
+	top: 40px;
+
+}
+.user{
+	margin-left: 170px;
+	margin-top:4px;
+	width: 27px;
+	display: flex;
+	align-self: center;
+    position: relative;
+    right: 120px;
+    top: 68px;
+
+}
+#username{
+	border:2px solid black;
+	width: 250px;
+	margin-left: 45px;
+}
+#password{
+	border:2px solid black;
+	width: 250px;
+	margin-left: 45px;
+}
+.lock{
+	margin-left: 170px;
+	margin-top:2px;
+	width: 30px;
+	display: flex;
+	align-self: center;
+    position: relative;
+    right: 120px;
+    top: 68px;
+
+}
+.staff{
+	border-bottom:2px solid gray ;
+	position: relative;
+	top: 55px;
+	left: 60px;
+	border-bottom:2px solid gray ; 
+	text-decoration: none;
+	color: black;
+
+}
+.staff:hover{
+	color: black;
+}
+
+.student{
+	position: relative;
+	top: 55px;
+	left: 175px;
+	text-decoration: none;
+	color: black;
+ }
+ .student:hover{
+	border-bottom:2px solid gray ;
+	color: black;
+}
+
+.btn-outline-dark{
+	margin-left: 115px ;
+	margin-top: 150px;
+   
+}
+ 
